@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name = "mario" type="id"/>
+    <item name = "left_arrow" type="id"/>
+    <item name = "right_arrow" type="id"/>
+    <item name = "jump" type = "id"/>
+    <item name = "highjump" type = "id"/>
+    <item name = "brick" type = "id"/>
+</resources>

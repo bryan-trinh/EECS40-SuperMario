@@ -1,0 +1,73 @@
+**Can also unzip Assignment4_SuperMario.zip
+
+Keyboard controls:
+
+Key Control                   Action
+____________________________  __________________
+Left Directional Arrow Key    - Move Left
+Right Directional Arrow Key   - Move Right
+Down Directional Arrow Key    - High Jump
+Up Directional Arrow Key      - Low Jump
+
+POINTS:
+- Breaking brick blocks     = 10        points
+- Coins                     = 200       points
+- Mushroom                  = 1000      points
+- Starman                   = 1000      points
+- End of level time bonus   = 100*time  points
+
+
+Deliverables:
+- Can use touchscreen buttons as control (encoded by onClick)
+- Can use keyboard as control
+- To spawn a power-up, Mario must hit an item brick from under - the power-up will be displayed on top
+- Mushroom/Starman power-up does not move
+- Small Mario can not break bricks, only Super Mario is able to break bricks
+- Game automatically exits upon losing all lives or finishing all 3 levels
+- Game keeps a running score based on however mario interacts with the environment
+- Game runs on a timer, Mario will move upwards every 1 counter of the time when jumping
+- Normal Jump moves Mario up 2 pixels, High Jump moves Mario up 3 pixels - based on in game timerge
+- Once physically hitting the flag on the game screen, do not continue moving forward, as Mario will "slide" down to the bottom to continue to the next stage
+- Stage automically updates to next stage as flag is hit
+- Upon death, Mario starts over at the beginning of the current level (if Mario has extra lives)
+
+All of the images used:
+- left_arrow.jpg
+- right_arrow.jpg
+- jump.jpg
+- highjump.jpg
+- bigmario.png
+- bigstarmario.png
+- block.png
+- brick.png
+- coin.png
+- flag.png
+- goomba.png
+- itemblock.png
+- mario.png
+- mariojump.png
+- pipe.png
+- piranhaplant.png
+- shroom.png
+- star.png
+- starjumpmario.png
+
+All of the .java files used:
+- mario.java
+- levelMap.java
+- MainActivity.java
+- MarioView.java
+
+FILE LOCATIONS:
+
+File                                  Location
+___________________________________   ______________________________________________
+- All of the images used will be in   res>drawable  folder
+- activity_main.xml                   res>layout    folder
+- ids.xml                             res>values    folder
+- colors.xml                          res>values    folder
+- AndroidManifest.xml                 manifest      folder
+- mario.java                          java>com.example.assignment4_mario
+- levelMap.java                       java>com.example.assignment4_mario
+- MainActivity.java                   java>com.example.assignment4_mario
+- MarioView.java                      java>com.example.assignment4_mario
